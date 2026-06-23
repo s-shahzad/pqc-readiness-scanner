@@ -36,8 +36,8 @@ _PQC = {
     "kyber512", "kyber768", "kyber1024",
 }
 
-# Groups we offer when probing whether a host supports PQC at all.
-_PQC_OFFER = "X25519MLKEM768:SecP256r1MLKEM768:x25519_kyber768:X25519Kyber768Draft00"
+# Groups we offer when probing whether a host supports PQC at all (OpenSSL 3.5+ names).
+_PQC_OFFER = "X25519MLKEM768:SecP256r1MLKEM768:X448MLKEM1024"
 
 
 def _norm(group: str) -> str:
@@ -74,9 +74,15 @@ def _parse_group(text: str) -> str:
     m = re.search(r"Negotiated TLS1\.3 group:\s*(\S+)", text)
     if m:
         return m.group(1)
-    # Fallback: "Server Temp Key: X25519, 253 bits"
-    m = re.search(r"Server Temp Key:\s*([A-Za-z0-9_]+)", text)
-    return m.group(1) if m else ""
+    # Fallback: "Peer Temp Key: X25519, 253 bits" or "Peer Temp Key: ECDH, prime256v1, 256 bits"
+    m = re.search(r"(?:Peer|Server) Temp Key:\s*(.+)", text)
+    if m:
+        parts = [p.strip() for p in m.group(1).split(",")]
+        for p in parts:
+            if re.search(r"[A-Za-z]", p) and "bit" not in p.lower() and p.upper() != "ECDH":
+                return p
+        return parts[0]
+    return ""
 
 
 @dataclass

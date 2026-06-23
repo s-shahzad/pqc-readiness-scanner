@@ -47,6 +47,16 @@ python pqc_scan.py --file examples/hosts.txt --json
 Exit code is non-zero if any host is classical-only, so it can gate a CI
 pipeline ("fail the build if any endpoint in our fleet has not migrated").
 
+## Early finding (June 2026)
+
+A first scan of 40 major TLS endpoints (`examples/top-domains.txt`): of 37 reachable,
+21 (57%) negotiate a hybrid post-quantum key exchange (X25519MLKEM768) by default, and
+16 (43%) still negotiate only classical key exchange. The hyperscalers (Google, Cloudflare,
+Meta, Apple) have migrated. Still classical-only at the time of the scan: a major bank, a
+payments provider, nist.gov, openssl.org, and several universities. Method: OpenSSL 3.5
+`s_client`, default group negotiation. This is a small, non-random sample; a larger
+longitudinal census is the next step.
+
 ## Requirements
 
 - Python 3.10+

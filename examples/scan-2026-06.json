@@ -1,0 +1,362 @@
+[
+  {
+    "host": "google.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "cloudflare.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "facebook.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "instagram.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "youtube.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "amazon.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "microsoft.com",
+    "port": 443,
+    "default_group": "prime256v1",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "apple.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "github.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "wikipedia.org",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "x.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "linkedin.com",
+    "port": 443,
+    "default_group": "secp521r1",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "netflix.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "reddit.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "openai.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "anthropic.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "mozilla.org",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "openssl.org",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "eff.org",
+    "port": 443,
+    "default_group": "<NULL>",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "signal.org",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "proton.me",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "bankofamerica.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "chase.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "paypal.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "stripe.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "ethz.ch",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "tudelft.nl",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "ru.nl",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "mit.edu",
+    "port": 443,
+    "default_group": "<NULL>",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "stanford.edu",
+    "port": 443,
+    "default_group": "<NULL>",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "berkeley.edu",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "ox.ac.uk",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "cam.ac.uk",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "gov.uk",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "nist.gov",
+    "port": 443,
+    "default_group": "prime256v1",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "europa.eu",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "bbc.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "nytimes.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "wordpress.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "yahoo.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  }
+]
