@@ -5,3 +5,5 @@ venv/
 *.json
 !examples/*.json
 .DS_Store
+scan-err.txt
+scan-results.json
