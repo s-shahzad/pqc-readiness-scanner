@@ -70,6 +70,10 @@ pipeline ("fail the build if any endpoint in our fleet has not migrated").
 - Passive mode: classify PQC readiness from a pcap instead of active probing.
 - A small dataset of real-world PQC adoption over time.
 
+## Author
+
+Azhad Shahzad Shaik (shaikazhadshahzad@gmail.com) · ORCID 0009-0009-6450-5837
+
 ## License
 
 MIT. See LICENSE.
