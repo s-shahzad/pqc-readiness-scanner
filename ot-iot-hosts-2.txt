@@ -1,0 +1,67 @@
+# OT/IoT/critical-infra PQC-readiness — scale-up batch 2 (2026-06-25). Public frontends + public MQTT brokers.
+
+# --- Industrial automation / OT vendors (the strong-signal vertical) ---
+emerson.com
+mitsubishielectric.com
+omron.com
+yokogawa.com
+gevernova.com
+eaton.com
+danfoss.com
+festo.com
+phoenixcontact.com
+beckhoff.com
+wago.com
+pilz.com
+sick.com
+endress.com
+fanuc.co.jp
+kuka.com
+br-automation.com
+boschrexroth.com
+parker.com
+ifm.com
+turck.com
+weidmueller.com
+hms-networks.com
+moxa.com
+advantech.com
+belden.com
+
+# --- Building automation ---
+johnsoncontrols.com
+trane.com
+carrier.com
+
+# --- Energy / utilities / grid operators ---
+exeloncorp.com
+southerncompany.com
+dominionenergy.com
+aep.com
+pseg.com
+nexteraenergy.com
+edf.fr
+enel.com
+eon.com
+iberdrola.com
+vattenfall.com
+misoenergy.org
+ercot.com
+caiso.com
+nyiso.com
+spp.org
+tennet.eu
+
+# --- EV charging / OCPP (more) ---
+evbox.com
+alfen.com
+tritiumcharging.com
+fastnedcharging.com
+gridserve.com
+instavolt.co.uk
+virta.global
+ev.energy
+
+# --- MQTT-over-TLS public brokers ---
+broker.emqx.io:8883
+mqtt.flespi.io:8883

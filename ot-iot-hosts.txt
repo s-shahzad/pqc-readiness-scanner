@@ -1,0 +1,32 @@
+# OT / IoT / critical-infrastructure PQC-readiness seed scan (2026-06-25)
+# Public, owner-operated endpoints only. Handshake-only.
+
+# --- EV charging / OCPP operators ---
+chargepoint.com
+evgo.com
+electrifyamerica.com
+shellrecharge.com
+ionity.eu
+blinkcharging.com
+wallbox.com
+tesla.com
+
+# --- MQTT-over-TLS public brokers (real IoT protocol endpoints) ---
+test.mosquitto.org:8883
+broker.hivemq.com:8883
+mqtt.eclipseprojects.io:8883
+
+# --- OT / ICS / automation vendors ---
+siemens.com
+schneider-electric.com
+rockwellautomation.com
+honeywell.com
+abb.com
+
+# --- Energy / smart-grid operators ---
+duke-energy.com
+nationalgrid.com
+eia.gov
+entsoe.eu
+iso-ne.com
+pjm.com

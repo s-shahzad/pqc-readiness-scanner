@@ -1,0 +1,55 @@
+# OT/IoT/critical-infra PQC-readiness — scale-up batch 3 (2026-06-25). Push toward N>=100 resolvable.
+
+# --- Industrial automation / OT vendors (densify the laggard vertical) ---
+keyence.com
+balluff.com
+baumer.com
+pepperl-fuchs.com
+leuze.com
+bannerengineering.com
+sensirion.com
+lenze.com
+sew-eurodrive.de
+nord.com
+selinc.com
+deltaww.com
+hitachienergy.com
+fujielectric.com
+idec.com
+yaskawa.com
+staubli.com
+universal-robots.com
+westermo.com
+redlion.net
+digi.com
+lantronix.com
+aveva.com
+aspentech.com
+inductiveautomation.com
+
+# --- Energy / utilities / grid ---
+xcelenergy.com
+firstenergycorp.com
+ppl.com
+eversource.com
+coned.com
+sce.com
+pge.com
+centerpointenergy.com
+dteenergy.com
+rte-france.com
+terna.it
+redeia.com
+swissgrid.ch
+fingrid.fi
+tva.gov
+
+# --- EV charging / OCPP ---
+bppulse.com
+evconnect.com
+sparkcharge.io
+
+# --- Water utilities ---
+veolia.com
+suez.com
+americanwater.com

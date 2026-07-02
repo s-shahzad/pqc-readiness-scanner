@@ -1,0 +1,506 @@
+[
+  {
+    "host": "emerson.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "mitsubishielectric.com",
+    "port": 443,
+    "default_group": "<NULL>",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "omron.com",
+    "port": 443,
+    "default_group": "",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "yokogawa.com",
+    "port": 443,
+    "default_group": "<NULL>",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "gevernova.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "eaton.com",
+    "port": 443,
+    "default_group": "<NULL>",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "danfoss.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "festo.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "phoenixcontact.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "beckhoff.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "wago.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "pilz.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "sick.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "endress.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "fanuc.co.jp",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "kuka.com",
+    "port": 443,
+    "default_group": "<NULL>",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "br-automation.com",
+    "port": 443,
+    "default_group": "prime256v1",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "boschrexroth.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "parker.com",
+    "port": 443,
+    "default_group": "secp521r1",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "ifm.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "turck.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "weidmueller.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "hms-networks.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "moxa.com",
+    "port": 443,
+    "default_group": "prime256v1",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "advantech.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "belden.com",
+    "port": 443,
+    "default_group": "<NULL>",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "johnsoncontrols.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "trane.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "carrier.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "exeloncorp.com",
+    "port": 443,
+    "default_group": "",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "southerncompany.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "dominionenergy.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "aep.com",
+    "port": 443,
+    "default_group": "<NULL>",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "pseg.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "nexteraenergy.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "edf.fr",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "enel.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "eon.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "iberdrola.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "vattenfall.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "misoenergy.org",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "ercot.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "caiso.com",
+    "port": 443,
+    "default_group": "",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "nyiso.com",
+    "port": 443,
+    "default_group": "",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "spp.org",
+    "port": 443,
+    "default_group": "<NULL>",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "tennet.eu",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "evbox.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "alfen.com",
+    "port": 443,
+    "default_group": "prime256v1",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "tritiumcharging.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "fastnedcharging.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "gridserve.com",
+    "port": 443,
+    "default_group": "prime256v1",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "instavolt.co.uk",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "virta.global",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "ev.energy",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "broker.emqx.io",
+    "port": 8883,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "mqtt.flespi.io",
+    "port": 8883,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  }
+]

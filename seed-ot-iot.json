@@ -1,0 +1,200 @@
+[
+  {
+    "host": "chargepoint.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "evgo.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "electrifyamerica.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "shellrecharge.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "ionity.eu",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "blinkcharging.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "wallbox.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "tesla.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "test.mosquitto.org",
+    "port": 8883,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "broker.hivemq.com",
+    "port": 8883,
+    "default_group": "<NULL>",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "mqtt.eclipseprojects.io",
+    "port": 8883,
+    "default_group": "",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "ERROR",
+    "error": "Command '['C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin\\\\openssl.EXE', 's_client', '-connect', 'mqtt.eclipseprojects.io:8883', '-servername', 'mqtt.eclipseprojects.io', '-tls1_3']' timed out after 8 seconds"
+  },
+  {
+    "host": "siemens.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "schneider-electric.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "rockwellautomation.com",
+    "port": 443,
+    "default_group": "<NULL>",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  },
+  {
+    "host": "honeywell.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "abb.com",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "duke-energy.com",
+    "port": 443,
+    "default_group": "prime256v1",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "nationalgrid.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "eia.gov",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "entsoe.eu",
+    "port": 443,
+    "default_group": "X25519",
+    "default_class": "classical",
+    "supports_pqc": false,
+    "verdict": "CLASSICAL ONLY (exposed to harvest-now-decrypt-later)",
+    "error": ""
+  },
+  {
+    "host": "iso-ne.com",
+    "port": 443,
+    "default_group": "X25519MLKEM768",
+    "default_class": "pqc-hybrid",
+    "supports_pqc": true,
+    "verdict": "MIGRATED (negotiates PQC by default)",
+    "error": ""
+  },
+  {
+    "host": "pjm.com",
+    "port": 443,
+    "default_group": "<NULL>",
+    "default_class": "unknown",
+    "supports_pqc": false,
+    "verdict": "UNKNOWN (could not determine group)",
+    "error": ""
+  }
+]
